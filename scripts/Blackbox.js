@@ -838,7 +838,7 @@ Blackbox.prototype.switchMenu = function(forcePage)
         'keys_menu_down_fast': '{shift+down}',
         'keys_menu_left': '{left}',
         'keys_menu_right': '{right}',
-        'keys_menu_open': '{enter}',
+        'keys_menu_open': '{shift+enter}',
         'keys_menu_undo': '{bs}',
         'keys_menu_help': '{h}',
         'keys_menu_close': '{esc}'
