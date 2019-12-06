@@ -10,6 +10,10 @@ local o = {
     tag3 = "3 Star",
     tag4 = "4 Star",
     tag5 = "5 Star",
+    anal = "anal",
+    comp = "comp",
+    tagf = "favorites",
+    delfile = "Tagged for deletion",
     command_template = [[
         tmsu tag "$in" "$tag"
     ]],
@@ -61,6 +65,22 @@ function tag_5()
     tag_file(o.tag5)
 end
 
+function tag_5()
+    tag_file(o.tagf)
+end
+
+function tag_anal()
+    tag_file(o.anal)
+end
+
+function tag_comp()
+    tag_file(o.comp)
+end
+
+function tag_del()
+    tag_file(o.delfile)
+end
+
 
 
 
@@ -70,4 +90,8 @@ mp.add_key_binding("", "tag_2", tag_2)
 mp.add_key_binding("", "tag_3", tag_3)
 mp.add_key_binding("", "tag_4", tag_4)
 mp.add_key_binding("", "tag_5", tag_5)
+mp.add_key_binding("", "tag_f", tag_f)
+mp.add_key_binding("", "tag_del", tag_del)
+mp.add_key_binding("", "tag_anal", tag_anal)
+mp.add_key_binding("", "tag_comp", tag_comp)
 
