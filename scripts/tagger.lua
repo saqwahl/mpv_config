@@ -10,7 +10,6 @@ local o = {
     tag3 = "3 Star",
     tag4 = "4 Star",
     tag5 = "5 Star",
-    anal = "anal",
     comp = "comp",
     tagf = "favorites",
     delfile = "Tagged for deletion",
