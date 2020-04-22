@@ -91,6 +91,5 @@ mp.add_key_binding("", "tag_4", tag_4)
 mp.add_key_binding("", "tag_5", tag_5)
 mp.add_key_binding("", "tag_f", tag_f)
 mp.add_key_binding("", "tag_del", tag_del)
-mp.add_key_binding("", "tag_anal", tag_anal)
 mp.add_key_binding("", "tag_comp", tag_comp)
 
